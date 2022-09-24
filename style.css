@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+  font-size: 10px;  
+  font-family: 'Montserrat', sans-serif ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+
+    min-height: 100vh ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero{
+
+    background-image: url(images/turtleIsland1.jpg);
+    background-size: cover;
+    background-position: top left;
+    position: relative;
+    z-index: 1;
+}
+
+#hero::after{
+
+content:'';
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+background-color:black;
+opacity: .7;
+z-index: -1;
+
+}
+
+#hero .hero {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+
+#hero h1{
+
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position:relative;
+    color: white;
+}
+
+
+#hero h1 span{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: crimson;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
+}
+
+#hero .cta{
+
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top:30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+
+}
+
+#hero .cta:hover{
+
+    color: white;
+    background-color: crimson;
+}
+
+
+/* new container starts heres */
+
+.container2{
+
+    min-height: 100vh ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gofundme{
+
+background-color: black;    
+background-size: cover;
+background-position: top left;
+position: relative;
+z-index: 1;
+}
+
+
+
+#gofundme .gofundme {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+
+#gofundme h1{
+
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position:relative;
+    color: white;
+}
+
+
+#gofundme .cta{
+
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top:30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+
+}
+
+#gofundme .cta:hover{
+
+    color: white;
+    background-color: crimson;
+}
+
+.gofundmetext{
+
+    color: white;
+    font-size: 20px;
+    margin-top: 55px;
+}
+
+.angel{
+
+    margin-top: 55px;
+}
+
+
+
+/* end of section */
+
+
+
+/* new container starts heres */
+
+.container3{
+
+    min-height: 100vh ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#PayPal{
+
+background-color: yellow;    
+background-size: cover;
+background-position: top left;
+position: relative;
+z-index: 1;
+}
+
+
+
+#PayPal .PayPal {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+
+#PayPal h1{
+
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position:relative;
+    color: black;
+}
+
+
+#PayPal .cta{
+
+    display: inline-block;
+    padding: 10px 30px;
+    color: red;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top:30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+
+}
+
+#PayPal .cta:hover{
+
+    color: black;
+    background-color: crimson;
+}
+
+.PayPal{
+
+    color: red;
+    font-size: 20px;
+    margin-top: 55px;
+}
+
+.angel{
+
+    margin-top: 55px;
+}
+
+
+
+/* end of section */
+
+
+
+
+
+
+/* start of media queries for mobile, tablet and small desktop below */
+
+
+@media (max-width:320px) {
+
+
+
+}
+
+@media (min-width:321px) and (max-width:767px) {
+
+
+}
+
+@media (min-width:768px) and (max-width:1096px) {
+
+
+}
+
+/* end of media queries for mobile, tablet and small desktop below */
+
+
